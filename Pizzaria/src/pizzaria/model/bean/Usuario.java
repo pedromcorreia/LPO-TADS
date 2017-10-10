@@ -1,20 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package model.bean;
+package pizzaria.model.bean;
 
-/**
- *
- * @author pedro
- */
 public class Usuario {
     
     private int idusuario;
     private String nome;
-    private String email; 
-    private String cpf;
+    private String sobreNome;
+    private String telefone;
 
     public int getIdusuario() {
         return idusuario;
@@ -32,23 +23,19 @@ public class Usuario {
         this.nome = nome;
     }
 
-    public String getEmail() {
-        return email;
+    public String getSobreNome() {
+        return sobreNome;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setSobreNome(String sobreNome) {
+        this.sobreNome = sobreNome;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getTelefone() {
+        return telefone;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
-    
-    
-    
-    
 }

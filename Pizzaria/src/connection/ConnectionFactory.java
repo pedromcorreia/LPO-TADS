@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package connection;
 
 import com.mysql.jdbc.Connection;
@@ -13,10 +8,6 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author pedro
- */
 public class ConnectionFactory {
 
     private static final String DRIVER = "com.mysql.jdbc.Driver";
