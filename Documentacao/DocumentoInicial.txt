@@ -1,0 +1,12 @@
+Configurações de ambiente (Pedro)
+
+Diagrama de classe (Alibaba)
+
+CRUD Cliente - 4 (Bruno + Alibaba) - Mais importante
+CRUD Pedido - {
+    1 - Escolher pedido
+    2 - Calculo do preço
+    3 - Pedido
+} (Pedro)
+CRUD Itens, Orçamento - 1 (Bruno + Alibaba)
+CRUD Cadastro sabores - 1 (Pedro)
