@@ -2,6 +2,7 @@ package Class;
 
 public class Circunferencia extends Forma
 {
+    private double raio;
     
     public Circunferencia(double raio) 
     {
